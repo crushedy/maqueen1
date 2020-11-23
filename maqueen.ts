@@ -19,10 +19,7 @@ let alreadyInit = 0
 let IrPressEvent = 0
 const MOTER_ADDRESSS = 0x10
 
-enum PingUnit {
-    //% block="cm"
-    Centimeters,
-}
+
 enum state {
         state1=0x10,
         state2=0x11,
